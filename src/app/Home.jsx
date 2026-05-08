@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Task from "./TaskItem";
 import { Link } from "react-router-dom";
+import Task from "../components/TaskItem";
 
 export default function Home() {
   const [tasksList, setTasksList] = useState([]);
@@ -31,9 +31,7 @@ export default function Home() {
   const addTask = async (task) => {
     await fetch(`${BASE_URL}/tasks`, {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(task),
     });
     getTasks();
@@ -42,18 +40,14 @@ export default function Home() {
   const updateTask = async ({ id, ...updatedTask }) => {
     await fetch(`${BASE_URL}/tasks/${id}`, {
       method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updatedTask),
     });
     getTasks();
   };
 
   const deleteTask = async (id) => {
-    await fetch(`${BASE_URL}/tasks/${id}`, {
-      method: "DELETE",
-    });
+    await fetch(`${BASE_URL}/tasks/${id}`, { method: "DELETE" });
     getTasks();
   };
 
@@ -80,10 +74,7 @@ export default function Home() {
         <form
           onSubmit={(e) => {
             e.preventDefault();
-            const task = {
-              value: newTask,
-              completed: false,
-            };
+            const task = { value: newTask, completed: false };
             addTask(task);
             setNewTask("");
           }}

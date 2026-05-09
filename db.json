@@ -1,14 +1,9 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "value": "Buy groceries",
-      "completed": false
-    },
-    {
       "id": 2,
       "value": "Walk the dog",
-      "completed": true
+      "completed": false
     },
     {
       "id": 3,
@@ -18,22 +13,17 @@
     {
       "id": 4,
       "value": "Read a book",
-      "completed": true
+      "completed": false
     },
     {
       "id": 5,
       "value": "Exercise",
-      "completed": false
+      "completed": true
     },
     {
-      "id": 6,
-      "value": "Complete Redux",
-      "completed": false
-    },
-    {
-      "value": "Learn Code",
-      "completed": true,
-      "id": 7
+      "value": "soo",
+      "completed": false,
+      "id": 6
     }
   ]
 }

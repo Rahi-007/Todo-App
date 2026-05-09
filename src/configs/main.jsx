@@ -1,8 +1,10 @@
+import { ApiProvider } from "@reduxjs/toolkit/query/react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "../App.jsx";
 import Home from "../app/Home.jsx";
 import "../style/global.css";
+import { api } from "./redux.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,5 +18,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <ApiProvider api={api}>
+    <RouterProvider router={router} />
+  </ApiProvider>
 );

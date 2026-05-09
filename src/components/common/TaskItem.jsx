@@ -1,6 +1,12 @@
 import { Check, Trash2 } from "lucide-react";
+import {
+  useDeleteTaskMutation,
+  useUpdateTaskMutation,
+} from "../../configs/redux";
 
-export default function Task({ task, updateTask, deleteTask }) {
+export default function Task({ task }) {
+  const [updateTask] = useUpdateTaskMutation();
+  const [deleteTask] = useDeleteTaskMutation();
   const { id, value, completed } = task;
 
   return (

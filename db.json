@@ -1,29 +1,130 @@
 {
   "tasks": [
     {
-      "id": 2,
-      "value": "Walk the dog",
-      "completed": false
+      "value": "Learn React",
+      "completed": true,
+      "status": "new",
+      "id": 1
     },
     {
-      "id": 3,
-      "value": "Finish work project",
-      "completed": true
+      "value": "Learn RTK Query",
+      "completed": true,
+      "status": "new",
+      "id": 2
     },
     {
-      "id": 4,
-      "value": "Read a book",
-      "completed": false
+      "value": "Start a Project",
+      "completed": true,
+      "status": "onstage",
+      "id": 3
     },
     {
-      "id": 5,
-      "value": "Exercise",
-      "completed": true
+      "value": "Basic Set up",
+      "completed": true,
+      "status": "ongoing",
+      "id": 4
     },
     {
-      "value": "soo",
+      "value": "add  and install packages ",
+      "completed": true,
+      "status": "new",
+      "id": 5
+    },
+    {
+      "value": "install lucide icon",
+      "completed": true,
+      "status": "ongoing",
+      "id": 7
+    },
+    {
+      "value": "Add components ",
+      "completed": true,
+      "status": "onstage",
+      "id": 8
+    },
+    {
+      "value": "home page design",
+      "completed": true,
+      "status": "new",
+      "id": 9
+    },
+    {
+      "value": "add new",
+      "completed": true,
+      "status": "new",
+      "id": 10
+    },
+    {
+      "value": "ongoing card",
+      "completed": true,
+      "status": "new",
+      "id": 12
+    },
+    {
+      "value": "done card",
+      "completed": true,
+      "status": "new",
+      "id": 13
+    },
+    {
+      "value": "on stage card",
+      "completed": true,
+      "status": "ongoing",
+      "id": 14
+    },
+    {
+      "value": "npm run format",
       "completed": false,
-      "id": 6
+      "status": "ongoing",
+      "id": 15
+    },
+    {
+      "value": "add to git",
+      "completed": false,
+      "status": "onstage",
+      "id": 16
+    },
+    {
+      "value": "responsive design",
+      "completed": false,
+      "status": "new",
+      "id": 17
+    },
+    {
+      "value": "build the project",
+      "completed": false,
+      "status": "new",
+      "id": 18
+    },
+    {
+      "value": "diploy frontend ",
+      "completed": false,
+      "status": "new",
+      "id": 19
+    },
+    {
+      "value": "diploy json db",
+      "completed": false,
+      "status": "new",
+      "id": 20
+    },
+    {
+      "value": "Re-design the add input",
+      "completed": false,
+      "status": "onstage",
+      "id": 21
+    },
+    {
+      "value": "Fix the max width",
+      "completed": false,
+      "status": "onstage",
+      "id": 23
+    },
+    {
+      "value": "add a err and bugs card",
+      "completed": false,
+      "status": "new",
+      "id": 24
     }
   ]
 }

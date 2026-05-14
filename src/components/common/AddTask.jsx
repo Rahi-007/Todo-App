@@ -21,7 +21,7 @@ const AddTask = ({ status }) => {
         className="ml-4 h-8 w-full flex-grow bg-transparent font-medium focus:outline-none"
         type="text"
         placeholder="Add a new task"
-        onChange={(e) => setNewTask(e.target.value)}
+        onChange={(e) => setNewTask(e.target.title)}
         value={newTask}
         required
       />

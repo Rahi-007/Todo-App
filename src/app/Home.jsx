@@ -1,13 +1,15 @@
-import Done from "../components/cards/Done";
-import New from "../components/cards/New";
-import OnGoing from "../components/cards/Ongoing";
-import OnStage from "../components/cards/Onstage";
+import Bug from "../components/layouts/Bug";
+import Done from "../components/layouts/Done";
+import New from "../components/layouts/New";
+import OnGoing from "../components/layouts/Ongoing";
 
 export default function Home() {
   return (
-    <div className="flex h-screen items-start justify-between gap-2 bg-gray-900 p-4">
+    // <div className="flex h-screen overflow-y-hidden  items-start justify-between gap-2 bg-gray-900 p-4 w-[3000px]">
+    <div className="flex flex-row h-screen overflow-y-hidden items-start bg-gray-900 p-4 gap-4">
       <New />
-      <OnStage />
+      <Bug />
+      {/* <OnStage /> */}
       <OnGoing />
       <Done />
     </div>

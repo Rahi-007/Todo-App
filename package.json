@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "format": "prettier --write src",
-    "json-server": "json-server db.json --watch"
+    "start": "json-server db.json --watch"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",

@@ -1,130 +1,151 @@
 {
   "tasks": [
     {
-      "value": "Learn React",
+      "title": "Learn React",
+      "description": "Learn React from scratch",
       "completed": true,
       "status": "new",
       "id": 1
     },
     {
-      "value": "Learn RTK Query",
+      "title": "Learn RTK Query",
+      "description": "Learn RTK from scratch",
       "completed": true,
       "status": "new",
       "id": 2
     },
     {
-      "value": "Start a Project",
+      "title": "Start a Project",
+      "description": "...",
       "completed": true,
       "status": "onstage",
       "id": 3
     },
     {
-      "value": "Basic Set up",
+      "title": "Basic Set up",
+      "description": "...",
       "completed": true,
       "status": "ongoing",
       "id": 4
     },
     {
-      "value": "add  and install packages ",
+      "title": "add  and install packages ",
+      "description": "...",
       "completed": true,
       "status": "new",
       "id": 5
     },
     {
-      "value": "install lucide icon",
+      "title": "install lucide icon",
+      "description": "...",
       "completed": true,
       "status": "ongoing",
       "id": 7
     },
     {
-      "value": "Add components ",
+      "title": "Add components ",
+      "description": "...",
       "completed": true,
       "status": "onstage",
       "id": 8
     },
     {
-      "value": "home page design",
+      "title": "home page design",
+      "description": "...",
       "completed": true,
       "status": "new",
       "id": 9
     },
     {
-      "value": "add new",
+      "title": "add new",
+      "description": "...",
       "completed": true,
       "status": "new",
       "id": 10
     },
     {
-      "value": "ongoing card",
+      "title": "ongoing card",
+      "description": "...",
       "completed": true,
       "status": "new",
       "id": 12
     },
     {
-      "value": "done card",
+      "title": "done card",
+      "description": "...",
       "completed": true,
       "status": "new",
       "id": 13
     },
     {
-      "value": "on stage card",
+      "title": "on stage card",
+      "description": "...",
       "completed": true,
       "status": "ongoing",
       "id": 14
     },
     {
-      "value": "npm run format",
+      "title": "npm run format",
+      "description": "...",
       "completed": false,
       "status": "ongoing",
       "id": 15
     },
     {
-      "value": "add to git",
-      "completed": false,
-      "status": "onstage",
-      "id": 16
-    },
-    {
-      "value": "responsive design",
+      "title": "responsive design",
+      "description": "...",
       "completed": false,
       "status": "new",
       "id": 17
     },
     {
-      "value": "build the project",
+      "title": "build the project",
+      "description": "...",
       "completed": false,
       "status": "new",
       "id": 18
     },
     {
-      "value": "diploy frontend ",
+      "title": "diploy frontend ",
+      "description": "...",
       "completed": false,
       "status": "new",
       "id": 19
     },
     {
-      "value": "diploy json db",
-      "completed": false,
+      "title": "diploy json db",
+      "description": "...",
+      "completed": true,
       "status": "new",
       "id": 20
     },
     {
-      "value": "Re-design the add input",
+      "title": "Fix the max width",
+      "description": "...",
       "completed": false,
-      "status": "onstage",
-      "id": 21
-    },
-    {
-      "value": "Fix the max width",
-      "completed": false,
-      "status": "onstage",
+      "status": "error",
       "id": 23
     },
     {
-      "value": "add a err and bugs card",
+      "title": "add a err and bugs card",
+      "description": "...",
       "completed": false,
       "status": "new",
       "id": 24
+    },
+    {
+      "title": "add auth grad",
+      "description": "...",
+      "completed": false,
+      "status": "new",
+      "id": 25
+    },
+    {
+      "title": "fix response object all data",
+      "description": "...",
+      "completed": false,
+      "status": "new",
+      "id": 26
     }
   ]
 }

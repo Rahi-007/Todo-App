@@ -2,150 +2,118 @@
   "tasks": [
     {
       "title": "Learn React",
+      "updatedAt": "2026-05-15T10:01:37.951Z",
       "description": "Learn React from scratch",
-      "completed": true,
-      "status": "new",
+      "status": "done",
       "id": 1
     },
     {
       "title": "Learn RTK Query",
+      "updatedAt": "2026-05-15T10:01:38.847Z",
       "description": "Learn RTK from scratch",
-      "completed": true,
-      "status": "new",
+      "status": "done",
       "id": 2
     },
     {
       "title": "Start a Project",
+      "updatedAt": "2026-05-15T09:50:38.825Z",
       "description": "...",
-      "completed": true,
       "status": "onstage",
       "id": 3
     },
     {
-      "title": "Basic Set up",
-      "description": "...",
-      "completed": true,
-      "status": "ongoing",
-      "id": 4
-    },
-    {
       "title": "add  and install packages ",
+      "updatedAt": "2026-05-15T10:01:47.473Z",
       "description": "...",
-      "completed": true,
-      "status": "new",
+      "status": "done",
       "id": 5
     },
     {
       "title": "install lucide icon",
+      "updatedAt": "2026-05-15T10:02:30.992Z",
       "description": "...",
-      "completed": true,
-      "status": "ongoing",
+      "status": "done",
       "id": 7
     },
     {
       "title": "Add components ",
+      "updatedAt": "2026-05-15T10:02:44.119Z",
       "description": "...",
-      "completed": true,
-      "status": "onstage",
+      "status": "done",
       "id": 8
     },
     {
       "title": "home page design",
+      "updatedAt": "2026-05-15T10:01:50.264Z",
       "description": "...",
-      "completed": true,
-      "status": "new",
+      "status": "done",
       "id": 9
     },
     {
       "title": "add new",
+      "updatedAt": "2026-05-15T10:01:52.494Z",
       "description": "...",
-      "completed": true,
-      "status": "new",
+      "status": "done",
       "id": 10
     },
     {
       "title": "ongoing card",
+      "updatedAt": "2026-05-15T10:02:08.703Z",
       "description": "...",
-      "completed": true,
-      "status": "new",
+      "status": "done",
       "id": 12
     },
     {
       "title": "done card",
+      "updatedAt": "2026-05-15T10:02:07.463Z",
       "description": "...",
-      "completed": true,
-      "status": "new",
+      "status": "done",
       "id": 13
     },
     {
       "title": "on stage card",
+      "updatedAt": "2026-05-15T10:02:39.727Z",
       "description": "...",
-      "completed": true,
-      "status": "ongoing",
+      "status": "done",
       "id": 14
     },
     {
-      "title": "npm run format",
-      "description": "...",
-      "completed": false,
-      "status": "ongoing",
-      "id": 15
-    },
-    {
-      "title": "responsive design",
-      "description": "...",
-      "completed": false,
-      "status": "new",
-      "id": 17
-    },
-    {
-      "title": "build the project",
-      "description": "...",
-      "completed": false,
-      "status": "new",
-      "id": 18
-    },
-    {
-      "title": "diploy frontend ",
-      "description": "...",
-      "completed": false,
-      "status": "new",
-      "id": 19
-    },
-    {
-      "title": "diploy json db",
-      "description": "...",
-      "completed": true,
-      "status": "new",
-      "id": 20
-    },
-    {
       "title": "Fix the max width",
+      "updatedAt": "2026-05-15T10:02:45.368Z",
       "description": "...",
-      "completed": false,
-      "status": "error",
+      "status": "done",
       "id": 23
     },
     {
       "title": "add a err and bugs card",
+      "updatedAt": "2026-05-15T10:02:19.255Z",
       "description": "...",
-      "completed": false,
-      "status": "new",
+      "status": "done",
       "id": 24
     },
     {
-      "title": "add auth grad",
-      "description": "...",
-      "completed": false,
-      "status": "new",
+      "title": "Start a new task ",
+      "status": "ongoing",
+      "updatedAt": "2026-05-15T10:03:36.698Z",
       "id": 25
     },
     {
-      "title": "fix response object all data",
-      "description": "...",
-      "completed": false,
-      "status": "new",
+      "title": "set a title limit",
+      "status": "error",
+      "updatedAt": "2026-05-15T10:04:09.292Z",
       "id": 26
+    },
+    {
+      "title": "add a update description",
+      "status": "new",
+      "updatedAt": "2026-05-15T10:04:23.329Z",
+      "id": 27
+    },
+    {
+      "title": "add a status change function ",
+      "status": "new",
+      "updatedAt": "2026-05-15T10:04:38.875Z",
+      "id": 28
     }
   ]
 }

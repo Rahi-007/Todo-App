@@ -5,7 +5,6 @@ import OnGoing from "../components/layouts/Ongoing";
 
 export default function Home() {
   return (
-    // <div className="flex h-screen overflow-y-hidden  items-start justify-between gap-2 bg-gray-900 p-4 w-[3000px]">
     <div className="flex flex-row h-screen overflow-y-hidden items-start bg-gray-900 p-4 gap-4">
       <New />
       <Bug />

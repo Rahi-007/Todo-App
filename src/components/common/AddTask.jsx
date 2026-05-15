@@ -10,7 +10,7 @@ const AddTask = ({ status }) => {
     <form
       onSubmit={(e) => {
         e.preventDefault();
-        const task = { value: newTask, completed: false, status: status };
+        const task = { title: newTask, status: status, updatedAt: new Date() };
         addTask(task);
         setNewTask("");
       }}
@@ -21,7 +21,7 @@ const AddTask = ({ status }) => {
         className="ml-4 h-8 w-full flex-grow bg-transparent font-medium focus:outline-none"
         type="text"
         placeholder="Add a new task"
-        onChange={(e) => setNewTask(e.target.title)}
+        onChange={(e) => setNewTask(e.target.value)}
         value={newTask}
         required
       />

@@ -9,7 +9,8 @@ export const api = createApi({
     getAllTasks: build.query({
       query: () => "tasks",
       providesTags: ["Tasks"],
-      transformResponse: (response) => response.sort((a, b) => b.id - a.id),
+      transformResponse: (response) =>
+        response.sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt)),
     }),
     addTask: build.mutation({
       query: (task) => ({

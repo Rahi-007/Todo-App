@@ -11,7 +11,7 @@ const AllTask = ({ status }) => {
         <p className="text-center">{error.error || "Something went wrong"}</p>
       ) : (
         data
-          .filter((task) => !task.completed && task.status === status)
+          .filter((task) => task.status === status)
           .map((task) => <Task key={task.id} task={task} />)
       )}
     </div>

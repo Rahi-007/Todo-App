@@ -3,6 +3,7 @@ import {
   useDeleteTaskMutation,
   useUpdateTaskMutation,
 } from "../../configs/redux";
+import Description from "./Description";
 import Popup, { Content, Trigger } from "./Popup";
 
 export default function Task({ task }) {
@@ -45,6 +46,7 @@ export default function Task({ task }) {
             <h4 className="ml-3 text-lg font-semibold">{title}</h4>
           </div>
           <p className="text-sm">{description}</p>
+          <Description id={id} description={description} />
         </Content>
       </Popup>
       <button
